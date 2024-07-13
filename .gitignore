@@ -6,7 +6,6 @@ __pycache__
 db.sqlite3
 media/
 featured_img/
-
 # Backup files # 
 *.bak 
 
@@ -106,7 +105,6 @@ ENV/
 env.bak/ 
 venv.bak/ 
 tenv/
-tenv31/
 
 # mkdocs documentation 
 /site 
