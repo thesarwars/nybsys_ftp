@@ -25,17 +25,22 @@ names as key and values as values of the dictionary.
 - After processing, move the files to a trash folder for later observation.
 
 ## 1. Create virtual environment by
-    python -m venv trienv
+    python -m venv tenv
 
-## 2. Activate the 'trienv' in WindowsOS
-    trienv\Scripts\activate
+## 2. Activate the 'tenv' in WindowsOS
+    tenv\Scripts\activate
 
 ## or in MacOS
-    source trienv/bin/activate
+    source tenv/bin/activate
 
 As it is required to run Docker file by command <b>"docker-compose up -d"</b>
 
 I've attached two screenshots of the output.
 
+<b>download from FTP </b>
+
 ![download from FTP](/download_from_ftp.png)
+
+<b>process XML and moved to trash </b>
+
 ![process XML and moved to trash](/monitor_and_trash.png)
